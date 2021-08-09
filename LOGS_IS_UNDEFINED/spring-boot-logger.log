@@ -1,0 +1,377 @@
+2021-08-09 08:07:45,110 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EmsBackendSpringbootApplication using Java 15 on DESKTOP-8L5VE38 with PID 9220 (D:\WORKSPACE\REACT\ems-backend-springboot\target\classes started by SUBHASHIS in D:\WORKSPACE\REACT\ems-backend-springboot)
+2021-08-09 08:07:45,124 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-09 08:07:45,275 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-09 08:07:45,276 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-09 08:07:46,903 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:07:46,906 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-09 08:07:46,968 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.myapp.ems.repository.EmployeeJPARepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-08-09 08:07:46,970 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 57 ms. Found 0 JDBC repository interfaces.
+2021-08-09 08:07:46,994 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:07:46,999 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09 08:07:47,111 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interfaces.
+2021-08-09 08:07:48,357 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-09 08:07:48,378 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:07:48,379 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-08-09 08:07:48,380 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 08:07:48,610 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-09 08:07:48,610 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3331 ms
+2021-08-09 08:07:49,035 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09 08:07:49,118 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-09 08:07:49,393 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-09 08:07:49,613 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-08-09 08:07:49,929 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-08-09 08:07:49,956 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-08-09 08:07:51,096 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09 08:07:51,110 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:07:52,012 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-09 08:07:52,139 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: 192418c3-3f6e-4767-99f8-06387d78d1ac
+
+2021-08-09 08:07:52,333 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13c8c50f, org.springframework.security.web.context.SecurityContextPersistenceFilter@50f0d23c, org.springframework.security.web.header.HeaderWriterFilter@82fd4ba, org.springframework.security.web.authentication.logout.LogoutFilter@2ef180c8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@727f1081, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76f2da5c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b19f48b, org.springframework.security.web.session.SessionManagementFilter@126acb6b, org.springframework.security.web.access.ExceptionTranslationFilter@54967a02]
+2021-08-09 08:07:53,306 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-09 08:07:53,368 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:07:53,524 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-09 08:07:53,580 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EmsBackendSpringbootApplication in 10.93 seconds (JVM running for 12.952)
+2021-08-09 08:08:51,833 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 08:08:51,834 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-08-09 08:08:51,837 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2021-08-09 08:08:52,095 INFO com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-1] An INFO Message
+2021-08-09 08:08:52,097 WARN com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-1] A WARN Message
+2021-08-09 08:08:52,098 ERROR com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-1] An ERROR Message
+2021-08-09 08:09:26,644 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:09:26,658 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2021-08-09 08:09:26,704 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2021-08-09 08:09:27,141 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EmsBackendSpringbootApplication using Java 15 on DESKTOP-8L5VE38 with PID 9220 (D:\WORKSPACE\REACT\ems-backend-springboot\target\classes started by SUBHASHIS in D:\WORKSPACE\REACT\ems-backend-springboot)
+2021-08-09 08:09:27,142 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-09 08:09:27,809 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:09:27,811 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-09 08:09:27,839 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.myapp.ems.repository.EmployeeJPARepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-08-09 08:09:27,840 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 27 ms. Found 0 JDBC repository interfaces.
+2021-08-09 08:09:27,850 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:09:27,851 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09 08:09:27,891 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2021-08-09 08:09:28,265 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-09 08:09:28,267 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:09:28,268 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-08-09 08:09:28,269 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 08:09:28,344 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-09 08:09:28,344 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1190 ms
+2021-08-09 08:09:28,547 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09 08:09:28,564 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-08-09 08:09:28,583 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-08-09 08:09:28,585 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-08-09 08:09:28,742 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09 08:09:28,744 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:09:29,185 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-09 08:09:29,278 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: f9f55db5-1018-4fca-bc3c-b7c1b1c5bfa7
+
+2021-08-09 08:09:29,313 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1127f246, org.springframework.security.web.context.SecurityContextPersistenceFilter@674530d3, org.springframework.security.web.header.HeaderWriterFilter@408afdfd, org.springframework.security.web.authentication.logout.LogoutFilter@72f48729, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3feb9b7a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2819fc6f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@763a9e89, org.springframework.security.web.session.SessionManagementFilter@202ced7, org.springframework.security.web.access.ExceptionTranslationFilter@2afe4100]
+2021-08-09 08:09:29,693 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-09 08:09:29,729 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:09:29,738 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-09 08:09:29,772 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EmsBackendSpringbootApplication in 2.804 seconds (JVM running for 109.144)
+2021-08-09 08:09:29,791 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-08-09 08:09:37,899 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 08:09:37,899 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-08-09 08:09:37,905 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2021-08-09 08:09:37,942 INFO com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-2] An INFO Message
+2021-08-09 08:09:37,942 WARN com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-2] A WARN Message
+2021-08-09 08:09:37,943 ERROR com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-2] An ERROR Message
+2021-08-09 08:09:42,778 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(12)-127.0.0.1] Application shutdown requested.
+2021-08-09 08:09:42,818 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(12)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:09:42,820 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2021-08-09 08:09:42,826 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(12)-127.0.0.1] HikariPool-2 - Shutdown completed.
+2021-08-09 08:19:01,665 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EmsBackendSpringbootApplication using Java 15 on DESKTOP-8L5VE38 with PID 6532 (D:\WORKSPACE\REACT\ems-backend-springboot\target\classes started by SUBHASHIS in D:\WORKSPACE\REACT\ems-backend-springboot)
+2021-08-09 08:19:01,673 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-09 08:19:01,804 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-09 08:19:01,806 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-09 08:19:03,338 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:19:03,341 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-09 08:19:03,408 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.myapp.ems.repository.EmployeeJPARepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-08-09 08:19:03,410 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 61 ms. Found 0 JDBC repository interfaces.
+2021-08-09 08:19:03,432 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:19:03,434 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09 08:19:03,531 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interfaces.
+2021-08-09 08:19:04,976 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-09 08:19:04,995 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:19:04,996 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-08-09 08:19:04,997 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 08:19:05,328 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-09 08:19:05,329 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3521 ms
+2021-08-09 08:19:05,770 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09 08:19:05,884 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-09 08:19:06,188 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-09 08:19:06,473 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-08-09 08:19:06,842 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-08-09 08:19:06,871 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-08-09 08:19:08,306 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09 08:19:08,322 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:19:09,071 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-09 08:19:09,249 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: fdcec9bb-32ed-468c-95a7-d54cf6605e0b
+
+2021-08-09 08:19:09,445 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d40ba32, org.springframework.security.web.context.SecurityContextPersistenceFilter@34adbee9, org.springframework.security.web.header.HeaderWriterFilter@11d9e4c3, org.springframework.security.web.authentication.logout.LogoutFilter@7cff5a5c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d69802e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@741f21c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@cdef915, org.springframework.security.web.session.SessionManagementFilter@48ba8e17, org.springframework.security.web.access.ExceptionTranslationFilter@22dc85da]
+2021-08-09 08:19:10,271 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-09 08:19:10,316 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:19:10,382 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-09 08:19:10,416 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EmsBackendSpringbootApplication in 9.719 seconds (JVM running for 12.202)
+2021-08-09 08:19:18,561 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 08:19:18,562 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-08-09 08:19:18,564 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2021-08-09 08:19:59,131 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:19:59,136 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2021-08-09 08:19:59,150 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2021-08-09 08:19:59,372 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EmsBackendSpringbootApplication using Java 15 on DESKTOP-8L5VE38 with PID 6532 (D:\WORKSPACE\REACT\ems-backend-springboot\target\classes started by SUBHASHIS in D:\WORKSPACE\REACT\ems-backend-springboot)
+2021-08-09 08:19:59,373 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-09 08:19:59,797 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:19:59,799 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-09 08:19:59,812 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.myapp.ems.repository.EmployeeJPARepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-08-09 08:19:59,812 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2021-08-09 08:19:59,818 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:19:59,818 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09 08:19:59,837 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2021-08-09 08:20:00,142 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-09 08:20:00,144 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:20:00,145 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-08-09 08:20:00,145 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 08:20:00,218 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-09 08:20:00,218 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 839 ms
+2021-08-09 08:20:00,333 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09 08:20:00,346 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-08-09 08:20:00,357 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-08-09 08:20:00,359 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-08-09 08:20:00,486 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09 08:20:00,487 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:20:00,750 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-09 08:20:00,803 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: 69af554b-1ffa-42cc-8483-53bf58f65332
+
+2021-08-09 08:20:00,824 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@37404d48, org.springframework.security.web.context.SecurityContextPersistenceFilter@73d40ec, org.springframework.security.web.header.HeaderWriterFilter@75060eb6, org.springframework.security.web.authentication.logout.LogoutFilter@79257c87, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d8475ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2832b556, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ae5c6f3, org.springframework.security.web.session.SessionManagementFilter@56fd503d, org.springframework.security.web.access.ExceptionTranslationFilter@7523fe03]
+2021-08-09 08:20:01,088 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-09 08:20:01,112 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:20:01,119 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-09 08:20:01,136 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EmsBackendSpringbootApplication in 1.863 seconds (JVM running for 62.922)
+2021-08-09 08:20:01,148 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-08-09 08:20:17,204 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EmsBackendSpringbootApplication using Java 15 on DESKTOP-8L5VE38 with PID 4056 (D:\WORKSPACE\REACT\ems-backend-springboot\target\classes started by SUBHASHIS in D:\WORKSPACE\REACT\ems-backend-springboot)
+2021-08-09 08:20:17,218 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-09 08:20:17,387 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-09 08:20:17,388 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-09 08:20:19,257 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:20:19,262 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-09 08:20:19,383 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.myapp.ems.repository.EmployeeJPARepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-08-09 08:20:19,386 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 113 ms. Found 0 JDBC repository interfaces.
+2021-08-09 08:20:19,423 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:20:19,427 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09 08:20:19,584 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 135 ms. Found 1 JPA repository interfaces.
+2021-08-09 08:20:21,346 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-09 08:20:21,372 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:20:21,374 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-08-09 08:20:21,375 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 08:20:21,689 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-09 08:20:21,690 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4299 ms
+2021-08-09 08:20:22,145 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09 08:20:22,238 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-09 08:20:22,563 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-09 08:20:22,819 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-08-09 08:20:23,203 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-08-09 08:20:23,240 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-08-09 08:20:24,610 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09 08:20:24,631 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:20:25,473 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-09 08:20:25,663 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: 21f4278e-9aa8-4e99-a7c1-158a1b5ea33f
+
+2021-08-09 08:20:25,882 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@633ac094, org.springframework.security.web.context.SecurityContextPersistenceFilter@e1abf98, org.springframework.security.web.header.HeaderWriterFilter@6144a083, org.springframework.security.web.authentication.logout.LogoutFilter@641f5e3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ec0e177, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@515085dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f8fd804, org.springframework.security.web.session.SessionManagementFilter@dc1f6a5, org.springframework.security.web.access.ExceptionTranslationFilter@6e339179]
+2021-08-09 08:20:26,809 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-08-09 08:20:26,858 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:20:26,871 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-08-09 08:20:26,881 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:20:26,891 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2021-08-09 08:20:26,914 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2021-08-09 08:20:26,920 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Pausing ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:20:26,920 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-08-09 08:20:26,930 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:20:26,931 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Destroying ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:20:26,952 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-09 08:20:27,011 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-08-09 08:20:52,474 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EmsBackendSpringbootApplication using Java 15 on DESKTOP-8L5VE38 with PID 4092 (D:\WORKSPACE\REACT\ems-backend-springboot\target\classes started by SUBHASHIS in D:\WORKSPACE\REACT\ems-backend-springboot)
+2021-08-09 08:20:52,483 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-09 08:20:52,652 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-09 08:20:52,653 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-09 08:20:54,288 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:20:54,292 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-09 08:20:54,358 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.myapp.ems.repository.EmployeeJPARepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-08-09 08:20:54,361 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 60 ms. Found 0 JDBC repository interfaces.
+2021-08-09 08:20:54,413 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:20:54,418 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09 08:20:54,559 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interfaces.
+2021-08-09 08:20:56,180 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-09 08:20:56,200 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:20:56,202 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-08-09 08:20:56,203 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 08:20:56,483 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-09 08:20:56,484 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3828 ms
+2021-08-09 08:20:56,987 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09 08:20:57,100 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-09 08:20:57,533 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-09 08:20:57,806 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-08-09 08:20:58,249 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-08-09 08:20:58,280 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-08-09 08:20:59,655 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09 08:20:59,673 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:21:00,573 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-09 08:21:00,791 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: 7d323f98-3479-402b-b76a-8928fd1b6259
+
+2021-08-09 08:21:01,011 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3887469, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b745126, org.springframework.security.web.header.HeaderWriterFilter@7660aa99, org.springframework.security.web.authentication.logout.LogoutFilter@65ddac50, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a50bd5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6c971ee4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d102bfd, org.springframework.security.web.session.SessionManagementFilter@2c8fac6c, org.springframework.security.web.access.ExceptionTranslationFilter@6dcc7266]
+2021-08-09 08:21:01,946 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2021-08-09 08:21:01,997 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:21:02,010 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2021-08-09 08:21:02,018 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:21:02,028 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown initiated...
+2021-08-09 08:21:02,050 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Shutdown completed.
+2021-08-09 08:21:02,057 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Pausing ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:21:02,058 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-08-09 08:21:02,075 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:21:02,076 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Destroying ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:21:02,110 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-08-09 08:21:02,166 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2021-08-09 08:21:33,253 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 08:21:33,253 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-08-09 08:21:33,255 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2021-08-09 08:21:33,273 INFO com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-2] An INFO Message
+2021-08-09 08:21:33,274 WARN com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-2] A WARN Message
+2021-08-09 08:21:33,274 ERROR com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-2] An ERROR Message
+2021-08-09 08:21:34,930 INFO com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-3] An INFO Message
+2021-08-09 08:21:34,931 WARN com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-3] A WARN Message
+2021-08-09 08:21:34,932 ERROR com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-3] An ERROR Message
+2021-08-09 08:21:36,447 INFO com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-4] An INFO Message
+2021-08-09 08:21:36,448 WARN com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-4] A WARN Message
+2021-08-09 08:21:36,449 ERROR com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-4] An ERROR Message
+2021-08-09 08:21:37,669 INFO com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-5] An INFO Message
+2021-08-09 08:21:37,670 WARN com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-5] A WARN Message
+2021-08-09 08:21:37,670 ERROR com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-5] An ERROR Message
+2021-08-09 08:21:38,803 INFO com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-6] An INFO Message
+2021-08-09 08:21:38,803 WARN com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-6] A WARN Message
+2021-08-09 08:21:38,804 ERROR com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-6] An ERROR Message
+2021-08-09 08:21:45,819 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(14)-127.0.0.1] Application shutdown requested.
+2021-08-09 08:21:45,934 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(14)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:21:45,941 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(14)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2021-08-09 08:21:45,962 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(14)-127.0.0.1] HikariPool-2 - Shutdown completed.
+2021-08-09 08:22:13,380 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EmsBackendSpringbootApplication using Java 15 on DESKTOP-8L5VE38 with PID 8824 (D:\WORKSPACE\REACT\ems-backend-springboot\target\classes started by SUBHASHIS in D:\WORKSPACE\REACT\ems-backend-springboot)
+2021-08-09 08:22:13,387 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-09 08:22:13,522 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-09 08:22:13,524 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-09 08:22:15,345 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:22:15,348 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-09 08:22:15,408 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.myapp.ems.repository.EmployeeJPARepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-08-09 08:22:15,410 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 54 ms. Found 0 JDBC repository interfaces.
+2021-08-09 08:22:15,431 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:22:15,434 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09 08:22:15,521 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interfaces.
+2021-08-09 08:22:16,892 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-09 08:22:16,914 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:22:16,915 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-08-09 08:22:16,916 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 08:22:17,196 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-09 08:22:17,197 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3671 ms
+2021-08-09 08:22:17,640 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09 08:22:17,760 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-09 08:22:18,093 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-09 08:22:18,331 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-08-09 08:22:18,705 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-08-09 08:22:18,744 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-08-09 08:22:20,241 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09 08:22:20,263 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:22:21,033 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-09 08:22:21,237 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: 9277a51f-ed04-46a7-a52c-fc7b3772717e
+
+2021-08-09 08:22:21,441 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@633ac094, org.springframework.security.web.context.SecurityContextPersistenceFilter@e1abf98, org.springframework.security.web.header.HeaderWriterFilter@6144a083, org.springframework.security.web.authentication.logout.LogoutFilter@641f5e3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ec0e177, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@515085dc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f8fd804, org.springframework.security.web.session.SessionManagementFilter@dc1f6a5, org.springframework.security.web.access.ExceptionTranslationFilter@6e339179]
+2021-08-09 08:22:22,248 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-09 08:22:22,299 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:22:22,388 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-09 08:22:22,416 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EmsBackendSpringbootApplication in 10.082 seconds (JVM running for 12.554)
+2021-08-09 08:22:33,890 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-09 08:22:33,892 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-08-09 08:22:33,899 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 7 ms
+2021-08-09 08:22:34,130 INFO com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-2] An INFO Message
+2021-08-09 08:22:34,132 WARN com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-2] A WARN Message
+2021-08-09 08:22:34,132 ERROR com.myapp.ems.dao.impl.EmployeeDaoImpl [http-nio-8080-exec-2] An ERROR Message
+2021-08-09 08:22:52,792 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:22:52,798 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2021-08-09 08:22:52,814 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2021-08-09 08:22:53,158 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EmsBackendSpringbootApplication using Java 15 on DESKTOP-8L5VE38 with PID 8824 (D:\WORKSPACE\REACT\ems-backend-springboot\target\classes started by SUBHASHIS in D:\WORKSPACE\REACT\ems-backend-springboot)
+2021-08-09 08:22:53,159 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-09 08:22:53,719 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:22:53,720 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-09 08:22:53,738 INFO org.springframework.data.repository.config.RepositoryConfigurationExtensionSupport [restartedMain] Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.myapp.ems.repository.EmployeeJPARepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2021-08-09 08:22:53,739 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 18 ms. Found 0 JDBC repository interfaces.
+2021-08-09 08:22:53,747 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-09 08:22:53,748 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-09 08:22:53,769 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2021-08-09 08:22:54,119 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-09 08:22:54,121 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:22:54,122 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-08-09 08:22:54,122 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-09 08:22:54,199 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-09 08:22:54,200 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1033 ms
+2021-08-09 08:22:54,305 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-09 08:22:54,320 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-08-09 08:22:54,336 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-08-09 08:22:54,337 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-08-09 08:22:54,464 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-09 08:22:54,466 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:22:54,780 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-09 08:22:54,832 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: a20112c2-2f65-4055-b0f6-c465be6a2e03
+
+2021-08-09 08:22:54,855 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13fc659b, org.springframework.security.web.context.SecurityContextPersistenceFilter@99cfe2b, org.springframework.security.web.header.HeaderWriterFilter@279baad3, org.springframework.security.web.authentication.logout.LogoutFilter@56fa7d49, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c49214c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76fedf24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@137b8f3f, org.springframework.security.web.session.SessionManagementFilter@65457199, org.springframework.security.web.access.ExceptionTranslationFilter@3326ceca]
+2021-08-09 08:22:55,178 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-09 08:22:55,202 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-09 08:22:55,210 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-09 08:22:55,231 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EmsBackendSpringbootApplication in 2.272 seconds (JVM running for 45.37)
+2021-08-09 08:22:55,247 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-08-09 08:26:56,786 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(17)-127.0.0.1] Application shutdown requested.
+2021-08-09 08:26:56,826 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(17)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-09 08:26:56,828 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2021-08-09 08:26:56,833 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(17)-127.0.0.1] HikariPool-2 - Shutdown completed.
